@@ -9,11 +9,19 @@ body{
 .navbar{
     display: flex;
 }
+.navbars{
+    margin-left: 25%;
+    display: inline;
+    margin-top: 5%;
+}
 nav{
     margin-left: 70%;
     display: contents;
     padding: 90px;
 }
+/* li{
+    margin-top: 5%;
+} */
 #agency{
     margin-left: 4%;
     margin-top: 3%;
@@ -24,16 +32,15 @@ nav{
 }
 /*.work{
     margin-left: 2%;  
-}
-.service{
-    margin-left: 7%;  
-}
-.contact{
-    margin-left: 7%;  
 }*/
+.service{
+    margin-left: 7%; 
+ 
+}
+
 nav li{
     display: inline;
-    padding: 6px;
+    padding: 10px;
     list-style: none;
     text-decoration: none;
     margin-top: 3%;
@@ -47,8 +54,11 @@ nav li{
     font-size: 20px;
     color: aliceblue;
     border-color: rgb(90,81,226); 
-    margin-left: 45%;
+    margin-left: 20%;
     margin-top: 3%;
+}
+.contact{
+    margin-left: 90%;
 }
 .icon1{
     display: flex;
